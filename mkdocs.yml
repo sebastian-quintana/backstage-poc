@@ -1,9 +1,30 @@
 site_name: 'Backstage POC'
 
+# Theme
+theme:
+  name: material
+  language: 'en'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  font:
+    text: 'Circular'
+    code: 'Inconsolata'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
 nav:
   - Home: index.md
   - Catalogo: catalogo.md
   - Documentación: documentacion.md
+    - Ejemplos: ejemplos/ejemplo.md
+
 
 plugins:
   - techdocs-core
