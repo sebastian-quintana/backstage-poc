@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: limits-validation-aws-lambda
+  description: Lambda thats validate if a transaction is allowed by user limits.
+  links:
+    - url: https://github.com/Bancar/uala-arg-prepaid-transactions-limits/tree/master/src/limits-validation-aws-lambda
+      title: GitHub Repo
+      icon: github
+  tags:
+    - go
+    - cupo-operativo
+spec:
+  type: service
+  lifecycle: production
+  owner: transactional-team
+  system: cupo-operativo
