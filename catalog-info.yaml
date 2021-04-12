@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: limits-validation-aws-lambda
   description: Lambda thats validate if a transaction is allowed by user limits.
+  annotations:
+   backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc
   links:
     - url: https://github.com/sebastian-quintana/backstage-poc
       title: GitHub Repo
