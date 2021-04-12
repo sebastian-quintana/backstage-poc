@@ -1,7 +1,9 @@
-site_name: 'example-docs'
+site_name: 'Backstage POC'
 
 nav:
   - Home: index.md
+  - Catalogo: catalogo.md
+  - Documentación: documentacion.md
 
 plugins:
   - techdocs-core
