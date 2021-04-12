@@ -13,3 +13,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
+  owner: transactional-team
+  system: cupo-operativo
