@@ -10,6 +10,8 @@ metadata:
   tags:
     - go
     - cupo-operativo
+    - aws
+    - lambda
 spec:
   type: service
   lifecycle: production
