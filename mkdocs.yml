@@ -18,13 +18,10 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
-
 nav:
   - Home: index.md
   - Catalogo: catalogo.md
   - Documentación: documentacion.md
-    - Ejemplos: ejemplos/ejemplo.md
-
 
 plugins:
   - techdocs-core
