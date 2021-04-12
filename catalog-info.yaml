@@ -4,7 +4,7 @@ metadata:
   name: limits-validation-aws-lambda
   description: Lambda thats validate if a transaction is allowed by user limits.
   links:
-    - url: https://github.com/Bancar/uala-arg-prepaid-transactions-limits/tree/master/src/limits-validation-aws-lambda
+    - url: https://github.com/sebastian-quintana/backstage-poc
       title: GitHub Repo
       icon: github
   tags:
