@@ -5,7 +5,6 @@ metadata:
   description: Management of a playlist
   annotations:
    backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc
-   github.com/project-slug: sebastian-quintana/backstage-poc
   links:
     - url: https://github.com/sebastian-quintana/backstage-poc
       title: GitHub Repo

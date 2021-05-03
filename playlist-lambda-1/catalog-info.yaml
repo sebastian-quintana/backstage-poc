@@ -5,6 +5,7 @@ metadata:
   description: playlist lambda to manage list elements
   annotations:
    backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc/playlist-lambda-1
+   github.com/project-slug: sebastian-quintana/backstage-poc
   links:
     - url: https://github.com/sebastian-quintana/backstage-poc/playlist-lambda-1
       title: GitHub Repo
