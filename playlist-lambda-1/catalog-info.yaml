@@ -13,7 +13,6 @@ metadata:
     - component
     - lambda
     - go
-    - playlist
 spec:
   type: service
   lifecycle: production
