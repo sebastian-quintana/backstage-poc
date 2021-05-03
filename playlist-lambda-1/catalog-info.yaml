@@ -19,3 +19,4 @@ spec:
   lifecycle: production
   owner: playlist-team
   system: playlist-management
+  consumesApis: starwars-graphql
