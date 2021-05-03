@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: playlist lambda 1
+  description: Playlist lambda to manage playlist elements
+  annotations:
+   backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc/playlist-lambda-1
+  links:
+    - url: https://github.com/sebastian-quintana/backstage-poc/playlist-lambda-1
+      title: GitHub Repo
+      icon: github
+  tags:
+    - component
+    - lambda
+    - go
+    - Playlist
+spec:
+  type: service
+  lifecycle: production
+  owner: playlist-team
+  system: playlist-management

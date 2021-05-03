@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
-  name: limits-validation-aws-lambda
-  description: Lambda thats validate if a transaction is allowed by user limits.
+  name: playlist-management
+  description: Management of a playslist
   annotations:
    backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc
   links:
@@ -10,12 +10,9 @@ metadata:
       title: GitHub Repo
       icon: github
   tags:
-    - go
-    - cupo-operativo
-    - aws
-    - lambda
+    - system
+    - Playlist
 spec:
   type: service
   lifecycle: production
-  owner: transactional-team
-  system: cupo-operativo
+  owner: playlist-team
