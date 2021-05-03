@@ -15,5 +15,3 @@ spec:
   type: service
   lifecycle: production
   owner: playlist-team
-  providesApis: 
-    - petstore

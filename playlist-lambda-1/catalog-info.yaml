@@ -21,3 +21,5 @@ spec:
   system: playlist-management
   consumesApis: 
     - starwars-graphql
+  providesApis: 
+    - petstore
