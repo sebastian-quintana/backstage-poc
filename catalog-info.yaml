@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: playlist-management
-  description: Management of a playslist
+  description: Management of a playlist
   annotations:
    backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc
   links:

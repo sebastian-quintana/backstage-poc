@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: playlist-lambda-1
-  description: Playlist lambda to manage playlist elements
+  description: playlist lambda to manage list elements
   annotations:
    backstage.io/techdocs-ref: url:https://github.com/sebastian-quintana/backstage-poc/playlist-lambda-1
   links:
