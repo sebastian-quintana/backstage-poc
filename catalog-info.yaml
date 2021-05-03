@@ -11,7 +11,7 @@ metadata:
       icon: github
   tags:
     - system
-    - Playlist
+    - playlist
 spec:
   type: service
   lifecycle: production
